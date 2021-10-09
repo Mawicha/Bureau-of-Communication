@@ -1,7 +1,7 @@
 import halloween from './halloween.jpg';
 import React, {useState, useRef} from 'react'; 
 import './App.css';
-
+import html2canvas from 'html2canvas';
 
 function App() {
   
@@ -24,6 +24,7 @@ function App() {
   const [status, setStatus] = useState("initial");
   const [screenshot, setScreenshot] = useState(false);
   const print = useRef();
+  const screen = useRef();
 
   function handleSubmit (event) {
     event.preventDefault();
@@ -55,6 +56,11 @@ function App() {
     setStatus("initial");
   }
 
+  function handlePrint(event) {
+     html2canvas(print.current).then(function(canvas) {
+        screen.current.appendChild(canvas);
+      });
+  }
 
   function random(arr) {
     return arr[Math.floor(Math.random()*arr.length)];
@@ -194,10 +200,11 @@ function App() {
         <button type="submit" onClick={handleSubmit}>Generate</button>
         <button type="reset" onClick={handleReset}>Reset</button>
         <button type="button" onClick={handleRandom}>Randomize</button>
+        <button type="button" onClick={handlePrint}>Print</button>
       </div>
     </form>
 
-      {status === "complete" && <React.Fragment>
+      {status === "complete" && <div ref={print}>
         <p></p>
         <img src={halloween} className="App-halloween" alt="halloween" />
         <div className="titulo"><h1>HALLOWEEN</h1></div>
@@ -215,8 +222,12 @@ function App() {
         <div className="de"><label>De : {invitacion.de}</label></div>
         <div className="para"><label>Para : {invitacion.para}</label></div>   
 
-        </React.Fragment>
+        </div>
       }
+
+      <div ref={screen}>
+        <h3>Printed Invitation</h3>
+      </div>
     </div>
   );
 }

@@ -9,6 +9,11 @@ body {
   
 }
 
+.App-halloween {
+  width: 400px;
+  height: 565px;
+}
+
 @font-face {
   font-family: 'October Crow';
   src: url('October Crow.ttf');
@@ -27,65 +32,65 @@ body {
 
 .titulo {
   position: absolute;
-  top: 120%;
-  left: 40%;
-  color: red;
+  top: 105%;
+  left: 44%;
+  color: white;
   font-family: October Crow;
-  font-size: 200%;
+  font-size: 130%;
 }
 
 .texto1 {
   position: absolute;
-  top: 150%;
-  left: 30%;
+  top: 120%;
+  left: 36%;
   color: #FFFFFF;
   font-family: October Crow;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .texto2 {
   position: absolute;
-  top: 165%;
-  left: 32%;
+  top: 130%;
+  left: 38%;
   color: #FFFFFF;
   font-family: October Crow;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .lugar {
   position: absolute;
-  top: 190%;
-  left: 25%;
+  top: 145%;
+  left: 36%;
   color: #FFFFFF;
   font-family: October Crow;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .direccion {
   position: absolute;
-  top: 200%;
-  left: 25%;
+  top: 150%;
+  left: 36%;
   color: #FFFFFF;
   font-family: October Crow;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .fecha {
   position: absolute;
-  top: 210%;
-  left: 25%;
+  top: 155%;
+  left: 36%;
   color: #FFFFFF;
   font-family: October Crow;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .hora {
   position: absolute;
-  top: 210%;
-  left: 40%;
+  top: 160%;
+  left: 36%;
   color: #FFFFFF;
   font-family: October Crow;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .texto3 {
@@ -99,56 +104,56 @@ body {
 
 .de {
   position: absolute;
-  top: 310%;
-  left: 30%;
+  top: 190%;
+  left: 37%;
   color: #FFFFFF;
   font-family: October Crow;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .para {
   position: absolute;
-  top: 310%;
-  left: 55%;
+  top: 190%;
+  left: 53%;
   color: #FFFFFF;
   font-family: October Crow;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .telefono {
   position: absolute;
-  top: 255%;
-  left: 25%;
+  top: 175%;
+  left: 36%;
   color: #FFFFFF;
   font-family: October Crow;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .posdata {
   position: absolute;
-  top: 275%;
-  left: 25%;
+  top: 182%;
+  left: 36%;
   color: #FFFFFF;
   font-family: October Crow;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .comida {
   position: absolute;
-  top: 230%;
-  left: 25%;
+  top: 165%;
+  left: 36%;
   color: #FFFFFF;
   font-family: October Crow;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .bebida {
   position: absolute;
-  top: 240%;
-  left: 25%;
+  top: 170%;
+  left: 36%;
   color: #FFFFFF;
   font-family: October Crow;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .buttons {
