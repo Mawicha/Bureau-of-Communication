@@ -1,3 +1,4 @@
 # Bureau-of-Communication
-#1 Invitación de Halloween 🎃
+Invitación de Halloween 🎃
+
 React App que a partir del llenado de un formulario genera una invitación para una fiesta de Halloween. 
