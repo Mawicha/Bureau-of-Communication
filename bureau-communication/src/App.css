@@ -1,0 +1,173 @@
+body {
+  background-color: black;
+  margin: 30px;
+  font-weight: bold;
+}
+
+.App {
+  text-align: center;
+  
+}
+
+@font-face {
+  font-family: 'October Crow';
+  src: url('October Crow.ttf');
+}
+
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: October Crow;
+  font-size: 150%;
+  color: indianred;
+}
+
+.titulo {
+  position: absolute;
+  top: 120%;
+  left: 40%;
+  color: red;
+  font-family: October Crow;
+  font-size: 200%;
+}
+
+.texto1 {
+  position: absolute;
+  top: 150%;
+  left: 30%;
+  color: #FFFFFF;
+  font-family: October Crow;
+  font-size: 150%;
+}
+
+.texto2 {
+  position: absolute;
+  top: 165%;
+  left: 32%;
+  color: #FFFFFF;
+  font-family: October Crow;
+  font-size: 150%;
+}
+
+.lugar {
+  position: absolute;
+  top: 190%;
+  left: 25%;
+  color: #FFFFFF;
+  font-family: October Crow;
+  font-size: 150%;
+}
+
+.direccion {
+  position: absolute;
+  top: 200%;
+  left: 25%;
+  color: #FFFFFF;
+  font-family: October Crow;
+  font-size: 150%;
+}
+
+.fecha {
+  position: absolute;
+  top: 210%;
+  left: 25%;
+  color: #FFFFFF;
+  font-family: October Crow;
+  font-size: 150%;
+}
+
+.hora {
+  position: absolute;
+  top: 210%;
+  left: 40%;
+  color: #FFFFFF;
+  font-family: October Crow;
+  font-size: 150%;
+}
+
+.texto3 {
+  position: absolute;
+  top: 285%;
+  left: 40%;
+  color: #FFFFFF;
+  font-family: October Crow;
+  font-size: 150%;
+}
+
+.de {
+  position: absolute;
+  top: 310%;
+  left: 30%;
+  color: #FFFFFF;
+  font-family: October Crow;
+  font-size: 150%;
+}
+
+.para {
+  position: absolute;
+  top: 310%;
+  left: 55%;
+  color: #FFFFFF;
+  font-family: October Crow;
+  font-size: 150%;
+}
+
+.telefono {
+  position: absolute;
+  top: 255%;
+  left: 25%;
+  color: #FFFFFF;
+  font-family: October Crow;
+  font-size: 150%;
+}
+
+.posdata {
+  position: absolute;
+  top: 275%;
+  left: 25%;
+  color: #FFFFFF;
+  font-family: October Crow;
+  font-size: 150%;
+}
+
+.comida {
+  position: absolute;
+  top: 230%;
+  left: 25%;
+  color: #FFFFFF;
+  font-family: October Crow;
+  font-size: 150%;
+}
+
+.bebida {
+  position: absolute;
+  top: 240%;
+  left: 25%;
+  color: #FFFFFF;
+  font-family: October Crow;
+  font-size: 150%;
+}
+
+.buttons {
+  top: 100%;
+  left: 70%;
+ 
+}
+
+button {
+  background-color: red;
+  font-family: October Crow;
+  font-size: 30px;
+  height: 70px;
+}
+
+input {
+  font-family: October Crow;
+  font-size: 80%;
+  background-color: lightyellow;
+  color: indianred;
+  font-weight: bold;
+}
