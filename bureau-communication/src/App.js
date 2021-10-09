@@ -1,6 +1,5 @@
 import halloween from './halloween.jpg';
 import React, {useState, useRef} from 'react'; 
-import { useScreenshot } from 'use-react-screenshot';
 import './App.css';
 
 
@@ -54,7 +53,6 @@ function App() {
     setState(defaultForm);
     setRead(false);
     setStatus("initial");
-    setScreenshot(false);
   }
 
 
